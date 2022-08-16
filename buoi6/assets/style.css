@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto", sans-serif;
+}
+#header{
+    height: 75.19px;
+    background-color: black;
+    padding: 0 15px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+a{ 
+    text-decoration: none;
+}
+#itemsprimary li {
+    display: inline;
+    
+}
+#itemsprimary .items li{
+    padding: 10px;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    line-height: 75.19px;
+}
+.logo-content a {
+    font-size: 20px ;
+    color: #fff;
+    padding: 15px 5px;
+    
+
+}
+
+.items a {
+    font-size: 18px; 
+    padding: 15px 5px;
+    color: #fff;
+}
+.items_login a{ 
+    background: #0080ff;
+    border: 1px royalblue solid;
+    margin: 5px 0;
+    color: #fff;
+    font-size: 18px; 
+    padding: 10px 15px;
+}
+.items_signup a{
+    color: #fff;
+    font-size: 18px; 
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px #0080ff solid;
+    margin: 5px 0;
+}
+.items_signup li , .items_login li {
+    padding: 9px 5px;
+}
+/* end nav */
+#content1 {
+    height: 100vh;
+    background-image: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+h1 {
+    font-size: 60px;
+    color: #fff;
+
+}
+#content1 span {
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+
+    
+}
+/* end content 1 */
+#content2 {
+    padding: 100px 20px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    width: 100%;
+}
+
+.title h2{
+    display: flex;
+    justify-content: center;
+    margin: 0 40.5px 60px ;
+    border-bottom: 2px solid #fff;
+    font-size: 42px;
+    color: #fff ;
+    
+}
+
+#totalprogram{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+    /* column-gap: 40px; */
+
+
+
+}
+#totalprogram a {
+    /* width: calc(33.33% - 40px); */
+    border: 1px solid ;
+    flex-basis: 30%;
+    
+
+
+   
+}
+#totalprogram a p {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 5px;
+    border-radius: 2px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
